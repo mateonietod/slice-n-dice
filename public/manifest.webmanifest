@@ -1,0 +1,29 @@
+{
+  "name": "Slice n' Dice",
+  "short_name": "Slice n' Dice",
+  "description": "A multiplayer dice game — race to exactly 10,000 points!",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#e67e22",
+  "background_color": "#fafafa",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
