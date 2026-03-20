@@ -1,0 +1,32 @@
+:root {
+  --color-bg: #fafafa;
+  --color-surface: #ffffff;
+  --color-text: #333333;
+  --color-text-muted: #999999;
+  --color-text-light: #bbbbbb;
+  --color-border: #e5e5e5;
+  --color-border-light: #f0f0f0;
+  --color-accent: #e67e22;
+  --color-accent-light: #f5d5b3;
+  --color-danger: #e74c3c;
+  --color-success: #27ae60;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --sidebar-width: 240px;
+  --breakpoint-mobile: 768px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}

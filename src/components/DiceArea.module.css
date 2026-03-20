@@ -1,0 +1,45 @@
+.area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.throwDice {
+  display: flex;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.setAsideLabel {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--color-text-light);
+  margin-top: 4px;
+}
+
+.setAsideDice {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.diceGroup {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.groupSeparator {
+  width: 1px;
+  height: 24px;
+  background: var(--color-border);
+  margin: 0 4px;
+}
+
+@media (max-width: 768px) {
+  .throwDice {
+    gap: 10px;
+  }
+}

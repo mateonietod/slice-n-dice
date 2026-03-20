@@ -1,0 +1,115 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: var(--color-surface);
+  border-radius: 12px;
+  padding: 48px 40px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.rankings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.rank {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: var(--color-bg);
+}
+
+.rank.first {
+  background: linear-gradient(135deg, #fef9f0, #fdf2e0);
+  border: 1px solid var(--color-accent-light);
+}
+
+.rankNumber {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  width: 36px;
+  text-align: center;
+}
+
+.first .rankNumber {
+  font-size: 1.4rem;
+}
+
+.rankName {
+  flex: 1;
+  text-align: left;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.first .rankName {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.rankScore {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+}
+
+.first .rankScore {
+  color: var(--color-accent);
+  font-size: 1.2rem;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.primaryBtn {
+  background: var(--color-text);
+  color: var(--color-surface);
+  border: none;
+}
+
+.secondaryBtn {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.primaryBtn:hover,
+.secondaryBtn:hover {
+  opacity: 0.85;
+}
